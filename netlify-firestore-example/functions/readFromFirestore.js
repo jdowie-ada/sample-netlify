@@ -33,7 +33,7 @@ exports.handler = async (event, context) => {
       };
     }
 
-    // Return the document data
+    // Return the document data ok
     return {
       statusCode: 200,
       body: JSON.stringify(doc.data()),
